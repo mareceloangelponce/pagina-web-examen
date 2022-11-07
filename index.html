@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Clase</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="idFamily">Id</label>
+                        <input type="number" name="idFamily" id="idFamily">
+                    </div>
+                    <div>
+                        <label for="names">Apellido Padres</label>
+                        <input type="text" name="names" id="names">
+                    </div>
+                    <div>
+                        <label for="qty">Cantidad Hijos</label>
+                        <input type="number" name="qty" id="qty">
+                    </div>
+                    <div>
+                        <label for="direc">Direccion</label>
+                        <input type="text" name="direc" id="direc">
+                    </div>
+
+                    <div>
+                        <label for="fono">Telefono</label>
+                        <input type="number" name="fono" id="fono">
+                    </div>
+                    <div>
+                        <label for="codt">codigo Tienda</label>
+                        <input type="number" name="codt" id="codt">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Insertar/Actualizar">
+                        <input type="reset" value="Cancelar">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Apellido Padres</th>
+                                <th>Cant Hijos</th>
+                                <th>Direccion</th>
+                                <th>Telefono</th>
+                                <th>Cgo Tienda</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

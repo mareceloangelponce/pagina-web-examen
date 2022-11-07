@@ -1,0 +1,84 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* datatable */
+table{
+    width: 80%;
+    margin: 10px auto;
+    background: rgb(124,154,167);
+    padding: 4px 5px;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+    font-size: .8rem ;
+}
+
+
+/* celdas del listado*/
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+
+
+ tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+}
+
+/* textbox */
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+    font-size: .8rem;
+}
+
+/* boton Insertar/Cancelar */
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 2px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+
+/* botones editar/eliminar */
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:2px 0 3px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: .5rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+
